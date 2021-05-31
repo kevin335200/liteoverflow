@@ -2,7 +2,7 @@
 // @description             remove all unrelated elements of stackoverflow
 // @name                    liteoverflow
 // @namespace               https://github.com/kevin335200/liteoverflow
-// @version                 1.0
+// @version                 1.01
 // @grant                   none
 // @include                 http*://stackoverflow.com/*
 // @author                  kevin335200
@@ -121,3 +121,10 @@ turnoff_class(
 // Markdown Editor
 hide_class("post-form");
 hide_class("no-answers");
+
+// Survey Banner
+turnoff_class("grid jc-space-between wmx12 mx-auto px16 py8");
+turnoff_class("js-announcement-banner bg-black-700 fc-white ff-sans fs-body2 py2");
+
+// Sign Up Bottom Bar
+turnoff_class("grid wmx12 mx-auto px8 py12 jc-space-between ai-center lg:pl24 lg:pr24 md:fd-column sm:fd-row sm:ai-center")
